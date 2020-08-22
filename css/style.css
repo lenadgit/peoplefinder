@@ -308,25 +308,63 @@ padding-top: 12px;
 	margin: 5% auto;
 }
 
-.team-wrapper {
+.inner-wrapper {
 	width: 90%;
-	display: inline-block;
+	margin: 0 auto;	
 }
 
-.team-inner-wrapper {
-display: inline-block;
-margin-bottom: 2%;
+.team-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .team-member {
-display: inline-block;
-text-align: center;
-margin-bottom: 2%;
-width: 270px;
+	width: 30%;
+	min-width: 300px;
+	margin: 5% 0;
 }
 
-.team-member>img {
-	width: 270px;
+.team-name {
+	font-weight: 600;
+	font: 36px Open-Sans, sans-serif;
+	text-align: center;
+}
+
+.role {
+	color: #17d0ac;
+	font-weight: 600;
+	font: 24px Open-Sans, sans-serif;
+	margin-bottom: 3%;
+	text-align: center;
+	margin-top: 2%;
+}
+
+.describe {	
+	font: 16px Open-Sans, sans-serif;
+	line-height: 1.8;
+}
+
+.link-block {
+	display: flex;
+	justify-content: center;
+	margin: 5% 0;
+}
+
+.read-more {
+	text-align: center;
+	font: 24px Open-Sans, sans-serif;
+	color: #17d0ac;
+}
+
+.first-block-wrapper > img {
+	width: 100%;
+}
+
+.footer-link {
+	color: #31d4e7;
+	font-weight: 900;
+	font: 24px Open-Sans, sans-serif;
 }
 
 .member-name-1, .member-name-2, .member-name-3, .member-name-4 {
@@ -338,6 +376,7 @@ width: 270px;
 	font: 13px Open-Sans, sans-serif;
 	color: #777777;
 }
+
 .picture-1 {
 	background: url("../img/member-1.jpg");
 	z-index: 1;
@@ -470,7 +509,6 @@ width: 270px;
 
 .footer-inner {
 	display: inline-block;
-	width: 49%;
 }
 
 .heading-3 {
@@ -486,12 +524,13 @@ width: 270px;
 }
 
 .footer-social {
-	display: inline-block;
+	margin-top: 10%;
 }
 
 .footer-link {
-	color: #a293be;
+	color: #31d4e7;
 	text-decoration: none;
+	margin-right: 80px;
 }
 
 .contact-form {
