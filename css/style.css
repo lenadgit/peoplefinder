@@ -228,8 +228,7 @@ table {
   font: 42px Raleway-SemiBold, sans-serif;
 }
 .btnheader-download {
-  width: 212px;
-  height: 49px;
+  display: inline-block;
   margin-top: 75px;
   background: #17d0ac;
   /* background-image: url("../img/bgdownload.jpg"); */
@@ -243,6 +242,9 @@ table {
   font: 20px Open-Sans, sans-serif;
   margin-bottom: 18%;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 60px;
 }
 
 .btnheader-download:hover {
