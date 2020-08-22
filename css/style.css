@@ -162,7 +162,9 @@ table {
 .header {
   width: 100%;
   background-image: url('../img/headerbg.jpg');
-  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: relative;
 }
 .main-wr-menu {
@@ -226,6 +228,7 @@ table {
 }
 .lead-text {
   font: 42px Raleway-SemiBold, sans-serif;
+  margin-bottom: 10px;
 }
 .btnheader-download {
   display: inline-block;
@@ -733,18 +736,12 @@ table {
 }
 
 @media screen and (max-width: 1200px) {
-  .header {
-    background-size: 120%;
-  }
   .header-picture > img {
     width: 65%;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .header {
-    background-size: 140%;
-  }
   .header-picture > img {
     width: 75%;
   }
@@ -757,9 +754,6 @@ table {
 }
 
 @media screen and (max-width: 960px) {
-  .header {
-    background-size: 140%;
-  }
   .header-picture > img {
     width: 80%;
   }
@@ -773,9 +767,6 @@ table {
 }
 
 @media screen and (max-width: 900px) {
-  .header {
-    background-size: 160%;
-  }
   .lead-text {
     font: 40px Raleway-SemiBold, sans-serif;
   }
@@ -889,7 +880,7 @@ table {
 
 @media screen and (max-width: 736px) {
   .header-content {
-    width: 50%;
+    width: 45%;
     color: #ffffff;
     font-size: 22px;
     float: left;
@@ -974,7 +965,7 @@ table {
 
 @media screen and (max-width: 480px) {
   .header {
-    height: 500px;
+    height: 580px;
   }
   .header-content {
     width: 90%;
@@ -1024,7 +1015,7 @@ table {
     font-size: 16px;
   }
   .header {
-    height: 450px;
+    height: 500px;
   }
   .first-block-text {
     line-height: 1.2;
