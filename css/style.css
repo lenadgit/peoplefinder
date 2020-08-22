@@ -153,7 +153,7 @@ table {
 	height: 49px;
 	margin-top: 75px;
 	background: #17d0ac;
-	background-image: url("../img/bgdownload.jpg");
+	/* background-image: url("../img/bgdownload.jpg"); */
 	border: none;
 	border-radius: 6px;
 	-webkit-border-radius: 6px;
