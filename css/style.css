@@ -166,6 +166,17 @@ table {
   background-position: center;
   background-size: cover;
   position: relative;
+  z-index: 1;
+}
+.header:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.75);
+  content: ' ';
 }
 .main-wr-menu {
   padding-top: 30px;
@@ -705,6 +716,10 @@ table {
   color: #5d5d5d;
   font: 14px Open-Sans, sans-serif;
   padding: 3% 0 1% 0;
+}
+
+.bott-text a {
+  color: #5d5d5d;
 }
 
 /*  MEDIA  */
