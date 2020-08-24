@@ -339,7 +339,7 @@ table {
 
 .second-block {
   width: 100%;
-  background: #31d4e7;
+  background: #17d0ac;
 }
 
 .second-block-wrapper {
@@ -424,7 +424,6 @@ table {
 
 .team-member {
   width: 30%;
-  min-width: 300px;
   margin: 5% 0;
 }
 
@@ -446,6 +445,7 @@ table {
 .describe {
   font: 16px Open-Sans, sans-serif;
   line-height: 1.8;
+  text-align: center;
 }
 
 .link-block {
@@ -1009,6 +1009,10 @@ table {
     line-height: 1;
     margin-top: 1%;
     font-size: 14px;
+  }
+
+  .team-member {
+    width: 100%;
   }
 }
 
